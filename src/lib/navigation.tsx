@@ -43,6 +43,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
 		{
 			type: NavigationItemType.LINK,
+			icon: 'feather:github',
+			text: 'GitHub',
+			href: 'https://github.com/FatihArridho',
+			external: true,
+		},
+		{
+			type: NavigationItemType.LINK,
 			icon: 'feather:twitter',
 			text: 'Twitter',
 			href: 'https://twitter.com/plexavor',
@@ -50,16 +57,23 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:instagram',
-			text: 'Instagram',
-			href: 'https://instagram.com/fatdho',
+			icon: 'feather:youtube',
+			text: 'YouTube',
+			href: 'https://youtube.com/@FatihArridhoo',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:github',
-			text: 'GitHub',
-			href: 'https://github.com/FatihArridho',
+			icon: 'feather:facebook',
+			text: 'Facebook',
+			href: 'https://facebook.com/m.fatdho',
+			external: true,
+		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:instagram',
+			text: 'Instagram',
+			href: 'https://instagram.com/fatdho',
 			external: true,
 		},
 	],
