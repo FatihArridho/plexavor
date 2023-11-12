@@ -9,7 +9,7 @@ export function useSeoProps(
 	const router = useRouter();
 
 	const title = 'plexavor ─ developer';
-	const description = "Hey 👋 I'm Plex, a developer";
+	const description = "Hey 👋 I'm Plexavor, a developer";
 
 	return {
 		title,
